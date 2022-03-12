@@ -1,7 +1,6 @@
 ### I Love 🛵
 
-'''
-python
+'''python
 print("hello!")
 '''
 <!--
