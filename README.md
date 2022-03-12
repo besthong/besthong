@@ -1,8 +1,8 @@
 ### I Love 🛵
 
-'''python
+```python
 print("hello!")
-'''
+```
 <!--
 **besthong/besthong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
