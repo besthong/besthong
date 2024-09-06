@@ -38,7 +38,7 @@ print(f"👋 {member.name}, {member.job}\n"
  f"🎯 Interests: {', '.join(member.interests)}")
 
 if __name__ == "__main__":
-minsuk = Member("홍정훈", "Software engineer🧑🏽‍💻", ["Back-end🔭"], ["Java☕"], ["Python"]
+junghoon = Member("홍정훈", "Software engineer🧑🏽‍💻", ["Back-end🔭"], ["Java☕"], ["Python"]
            ["Python🌱", "Django", "FastAPI🛵"],
            ["Ubuntu🐺", "Github Actions♾️", "Postgresql🐘", "Docker🐋", "AWS EC2☁️"],
            ["Slack📑", "Notion", "Github project", "Git", "IntelliJ"],
