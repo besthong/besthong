@@ -1,13 +1,19 @@
+
+
                 __   __    __       _______..___________.    _______    ______       __  .___________.
                |  | |  |  |  |     /       ||           |   |       \  /  __  \     |  | |           |
                |  | |  |  |  |    |   (----``---|  |----`   |  .--.  ||  |  |  |    |  | `---|  |----`
          .--.  |  | |  |  |  |     \   \        |  |        |  |  |  ||  |  |  |    |  |     |  |     
          |  `--'  | |  `--'  | .----)   |       |  |        |  '--'  ||  `--'  |    |  |     |  |     
           \______/   \______/  |_______/        |__|        |_______/  \______/     |__|     |__|    
+                         
+                            안녕하세요. 고민 할 시간도 중요하지만 일단 해보는게 더 중요한 홍정훈 입니다.
+                           
+
+[![TechBlog](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)](https://hongjunghoon.com)
 
 
-         그냥 하다보면 될거같아
-
+About me👇🏻
 ```python
 from dataclasses import dataclass
 
@@ -38,10 +44,8 @@ minsuk = Member("홍정훈", "Software engineer🧑🏽‍💻", ["Back-end🔭"
            ["Slack📑", "Notion", "Github project", "Git", "IntelliJ"],
            ["음악🎧", "책📖", "등산🏔️"])
 
-introduce(minsuk)
+introduce(junghoon)
 ```
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=besthong&layout=compact)
 
 <!--
 **besthong/besthong** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
