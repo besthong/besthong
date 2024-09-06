@@ -8,10 +8,12 @@
           \______/   \______/  |_______/        |__|        |_______/  \______/     |__|     |__|    
                          
                             안녕하세요. 고민 할 시간도 중요하지만 일단 해보는게 더 중요한 홍정훈 입니다.
-                           
 
-[![TechBlog](https://img.shields.io/badge/TechBlog-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)](https://hongjunghoon.com)
-
+<p align="center">
+  <a href="https://hongjunghoon.com">
+    <img src="https://img.shields.io/badge/TechBlog-F7DF1E?style=for-the-badge&&logoColor=white">
+  </a>
+</p>
 
 # About me👇🏻
 
