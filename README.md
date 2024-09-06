@@ -10,10 +10,11 @@
                             안녕하세요. 고민 할 시간도 중요하지만 일단 해보는게 더 중요한 홍정훈 입니다.
                            
 
-[![TechBlog](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)](https://hongjunghoon.com)
+[![TechBlog](https://img.shields.io/badge/TechBlog-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)](https://hongjunghoon.com)
 
 
-About me👇🏻
+# About me👇🏻
+
 ```python
 from dataclasses import dataclass
 
@@ -38,7 +39,7 @@ print(f"👋 {member.name}, {member.job}\n"
  f"🎯 Interests: {', '.join(member.interests)}")
 
 if __name__ == "__main__":
-minsuk = Member("홍정훈", "Software engineer🧑🏽‍💻", ["Back-end🔭"], ["Java☕"], ["Python"]
+junghoon = Member("홍정훈", "Software engineer🧑🏽‍💻", ["Back-end🔭"], ["Java☕"], ["Python"]
            ["Python🌱", "Django", "FastAPI🛵"],
            ["Ubuntu🐺", "Github Actions♾️", "Postgresql🐘", "Docker🐋", "AWS EC2☁️"],
            ["Slack📑", "Notion", "Github project", "Git", "IntelliJ"],
