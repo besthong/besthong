@@ -13,7 +13,8 @@
 [![TechBlog](https://img.shields.io/badge/TechBlog-F7DF1E?style=for-the-badge&logo=JavaScript&logoColor=white)](https://hongjunghoon.com)
 
 
-About me👇🏻
+# About me👇🏻
+
 ```python
 from dataclasses import dataclass
 
