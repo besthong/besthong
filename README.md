@@ -22,14 +22,14 @@ from dataclasses import dataclass
 
 @dataclass
 class Member:
-name: str
-job: str
-development_fields: list
-languages: list
-backend_skills: list
-devops_skills: list
-collaboration_tools: list
-interests: list
+  name: str
+  job: str
+  development_fields: list
+  languages: list
+  backend_skills: list
+  devops_skills: list
+  collaboration_tools: list
+  interests: list
 
 def introduce(member: Member):
 print(f"👋 {member.name}, {member.job}\n"
@@ -41,10 +41,10 @@ print(f"👋 {member.name}, {member.job}\n"
  f"🎯 Interests: {', '.join(member.interests)}")
 
 if __name__ == "__main__":
-junghoon = Member("홍정훈", "Software engineer🧑🏽‍💻", ["Back-end🔭"], ["Java☕"], ["Python"]
+junghoon = Member("홍정훈", "Software engineer🧑🏽‍💻", ["Back-end🔭"], ["Java☕"], ["Python"], ["RPA🤖"],
            ["Python🌱", "Django", "FastAPI🛵"],
-           ["Ubuntu🐺", "Github Actions♾️", "Postgresql🐘", "Docker🐋", "AWS EC2☁️"],
-           ["Slack📑", "Notion", "Github project", "Git", "IntelliJ"],
+           ["Ubuntu🐺", "Github Actions♾️", "Postgresql🐘", "Docker🐋", "AWS Lightsail☁️"],
+           ["Slack📑", "Notion", "Github project", "Git", "IntelliJ", "UIPath"],
            ["음악🎧", "책📖", "등산🏔️"])
 
 introduce(junghoon)
