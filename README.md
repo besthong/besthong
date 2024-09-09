@@ -75,13 +75,10 @@ introduce(junghoon)
     </div>
 
 
-  
-<div style="text-align: left;">
-    <h2 style="border-bottom: 1px solid #21262d; color: #c9d1d9;"> 🧑‍💻 Contact me </h2> <br> 
-    <div style="text-align: left;"> <a href=jhjh30111@naver.com> <img src="https://img.shields.io/badge/Naver-03C75A?style=for-the-badge&logo=Naver&logoColor=white&link=jhjh30111@naver.com"> </a>
-    </div>  <br> 
-    <div style="text-align: left;">  </div> 
-</div>
+## 🧑‍💻 Contact me
+[jhjh30111@naver.com](mailto:jhjh30111@naver.com)
+
+
 
 
 <!--
