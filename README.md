@@ -18,18 +18,16 @@
 <h2>About me👇🏻</h2> 
 
 ```python
-if __name__ == "__main__":
-    junghoon = {
-        "name": "홍정훈",
-        "job": "Software engineer🧑🏽‍💻",
-        "Development": ["Back-end🔭","RPA🤖"],
-        "Languages": ["Java☕", "Python"],
-        "Backend": ["Django", "FastAPI🛵"],
-        "DevOps": ["Ubuntu🐺", "Github Actions♾️", "Postgresql🐘", "Docker🐋", "AWS Lightsail☁️"],
-        "Tools": ["Slack📑", "Notion", "Github project", "Git", "IntelliJ", "UIPath"],
-        "interests": ["음악🎧", "책📖", "등산🏔️"]
-    }
-     introduce(junghoon)
+  junghoon = {
+      "name": "홍정훈",
+      "job": "Software engineer🧑🏽‍💻",
+      "Development": ["Back-end🔭","RPA🤖"],
+      "Languages": ["Java☕", "Python"],
+      "Backend": ["Django", "FastAPI🛵"],
+      "DevOps": ["Ubuntu🐺", "Github Actions♾️", "Postgresql🐘", "Docker🐋", "AWS Lightsail☁️"],
+      "Tools": ["Slack📑", "Notion", "Github project", "Git", "IntelliJ", "UIPath"],
+      "interests": ["음악🎧", "책📖", "등산🏔️"]
+  }
 ```
 
 ## 성과 👏🏻
