@@ -17,20 +17,7 @@
 
 <h2>About me👇🏻</h2> 
 
-```python
-if __name__ == "__main__":
-    junghoon = {
-        "name": "홍정훈",
-        "job": "Software engineer🧑🏽‍💻",
-        "Development": ["Back-end🔭","RPA🤖"],
-        "Languages": ["Java☕", "Python"],
-        "Backend": ["Django", "FastAPI🛵"],
-        "DevOps": ["Ubuntu🐺", "Github Actions♾️", "Postgresql🐘", "Docker🐋", "AWS Lightsail☁️"],
-        "Tools": ["Slack📑", "Notion", "Github project", "Git", "IntelliJ", "UIPath"],
-        "interests": ["음악🎧", "책📖", "등산🏔️"]
-    }
-     introduce(junghoon)
-```
+
 
 ## 성과 👏🏻
 1. 현대기아자동차 RPA 프로젝트 내 650개 자동화 업무의 운영PL 담당하며, 단순 차대번호 조회 시스템 가동시간 20시간 -> 2시간 단축
