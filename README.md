@@ -18,15 +18,6 @@
 <h2>About me👇🏻</h2> 
 
 ```python
-def introduce(member):
-    print(f"👋 {member['name']}, {member['job']}\n"
-          f"🔭 Development: {', '.join(member['development_fields'])}\n"
-          f"☕ Languages: {', '.join(member['languages'])}\n"
-          f"🔧 Backend: {', '.join(member['backend_skills'])}\n"
-          f"♾️ DevOps: {', '.join(member['devops_skills'])}\n"
-          f"📑 Tools: {', '.join(member['collaboration_tools'])}\n"
-          f"🎯 Interests: {', '.join(member['interests'])}")
-
 if __name__ == "__main__":
     junghoon = {
         "name": "홍정훈",
@@ -38,9 +29,7 @@ if __name__ == "__main__":
         "Tools": ["Slack📑", "Notion", "Github project", "Git", "IntelliJ", "UIPath"],
         "interests": ["음악🎧", "책📖", "등산🏔️"]
     }
-
      introduce(junghoon)
-
 ```
 
 
