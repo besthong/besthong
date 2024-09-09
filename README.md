@@ -18,37 +18,32 @@
 <h2>About me👇🏻</h2> 
 
 ```python
-from dataclasses import dataclass
-
-@dataclass
-class Member:
-  name: str
-  job: str
-  development_fields: list
-  languages: list
-  backend_skills: list
-  devops_skills: list
-  collaboration_tools: list
-  interests: list
-
-def introduce(member: Member):
-print(f"👋 {member.name}, {member.job}\n"
- f"🔭 Development: {', '.join(member.development_fields)} | "
- f"☕ Languages: {', '.join(member.languages)} | "
- f"🔧 Backend: {', '.join(member.backend_skills)} | "
- f"♾️ DevOps: {', '.join(member.devops_skills)} | "
- f"📑 Tools: {', '.join(member.collaboration_tools)} | "
- f"🎯 Interests: {', '.join(member.interests)}")
+def introduce(member):
+    print(f"👋 {member['name']}, {member['job']}\n"
+          f"🔭 Development: {', '.join(member['development_fields'])}\n"
+          f"☕ Languages: {', '.join(member['languages'])}\n"
+          f"🔧 Backend: {', '.join(member['backend_skills'])}\n"
+          f"♾️ DevOps: {', '.join(member['devops_skills'])}\n"
+          f"📑 Tools: {', '.join(member['collaboration_tools'])}\n"
+          f"🎯 Interests: {', '.join(member['interests'])}")
 
 if __name__ == "__main__":
-junghoon = Member("홍정훈", "Software engineer🧑🏽‍💻", ["Back-end🔭"], ["Java☕"], ["Python"], ["RPA🤖"],
-           ["Python🌱", "Django", "FastAPI🛵"],
-           ["Ubuntu🐺", "Github Actions♾️", "Postgresql🐘", "Docker🐋", "AWS Lightsail☁️"],
-           ["Slack📑", "Notion", "Github project", "Git", "IntelliJ", "UIPath"],
-           ["음악🎧", "책📖", "등산🏔️"])
+    junghoon = {
+        "name": "홍정훈",
+        "job": "Software engineer🧑🏽‍💻",
+        "Development": ["Back-end🔭"],
+        "Languages": ["Java☕", "Python"],
+        "Backend": ["Django", "FastAPI🛵"],
+        "DevOps": ["Ubuntu🐺", "Github Actions♾️", "Postgresql🐘", "Docker🐋", "AWS Lightsail☁️", "RPA🤖"],
+        "Tools": ["Slack📑", "Notion", "Github project", "Git", "IntelliJ", "UIPath"],
+        "interests": ["음악🎧", "책📖", "등산🏔️"]
+    }
 
-introduce(junghoon)
+     introduce(junghoon)
+
 ```
+
+
 
 <div style="text-align: left;">
     <h2 style="border-bottom: 1px solid #d8dee4; color: #282d33;"> 🛠️ Tech Stacks </h2> <br> 
